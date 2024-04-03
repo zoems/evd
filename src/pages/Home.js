@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import ProfilePic from '../img/home/Profile.jpg';
+import ProfilePic from '../img/home/Profile.jpeg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -57,6 +57,8 @@ const Home = () => {
                 transition={transition1}
                 src={ProfilePic}
                 alt=''
+                width={800}
+                height={1000}
               />
             </motion.div>
           </div>

@@ -43,7 +43,7 @@ const Contact = () => {
               <br/>
               +45 81 93 04 86
               </p>
-            {/* form */}
+            {/* form
             <form className='flex flex-col gap-y-4'>
               <div className='flex gap-x-10'>
                 <input
@@ -65,7 +65,7 @@ const Contact = () => {
               <button className='btn mb-[30px] mx-auto lg:mx-0 self-start'>
                 Send it
               </button>
-            </form>
+            </form> */}
           </div>
           {/* image */}
           <motion.div

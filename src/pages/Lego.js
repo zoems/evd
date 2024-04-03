@@ -38,11 +38,11 @@ const Lego = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
-            className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col gap-10 justify-center items-center lg:items-start'
+            className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col gap-10 justify-center items-center lg:items-start mb-12'
           >
             <div>
               <h1 className='h1 text-[36px] lg:text-[72px]'>Samples of my work</h1>
-              <p className='mb-12 max-w-l'>
+              <p className='max-w-l'>
                 Here's samples of several campaigns for the LEGO® Group
                 that I worked on together with my team at Advance.
                 Most of the work is password protected, so if I haven't
@@ -61,7 +61,7 @@ const Lego = () => {
               <br />
               <br />
 
-              <iframe title='1' width="560" height="315" src="https://www.youtube.com/watch?v=N0Daq1eaF8o&ab_channel=MarvelHQ" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/N0Daq1eaF8o?si=Oo9HNp2BykSY5__u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div>
               <h2 className='h2'>LEGO® Harry Potter</h2>

@@ -39,8 +39,8 @@ const Home = () => {
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
               Berlin, Germany
             </p>
-            <Link to={'/contact'} className='btn mb-[30px]'>
-              Contact
+            <Link to={'/About'} className='btn mb-[30px]'>
+              About Me
             </Link>
           </motion.div>
           {/* image */}

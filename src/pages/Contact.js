@@ -37,6 +37,12 @@ const Contact = () => {
           >
             <h1 className='h1'>Contact me</h1>
             <p className='mb-12'>Lets talk about your next project.</p>
+            <p>Feel free to reach me over email or phone.
+              <br/>
+              elizevanderlaan1@me.com
+              <br/>
+              +45 81 93 04 86
+              </p>
             {/* form */}
             <form className='flex flex-col gap-y-4'>
               <div className='flex gap-x-10'>

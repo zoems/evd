@@ -1,9 +1,7 @@
 import React, { useContext } from 'react';
 // import images
-// import Image1 from '../img/portfolio/1.png';
-// import Image2 from '../img/portfolio/2.png';
-// import Image3 from '../img/portfolio/3.png';
-// import Image4 from '../img/portfolio/4.png';
+import carlotaLogo from '../img/portfolio/carlotaLogo.png';
+import barbellyLogo from '../img/portfolio/barbellyLogo.png';
 import Portfolioheaderimg from '../img/portfolio/Portfolioheader.png';
 // import link
 import { Link } from 'react-router-dom';
@@ -87,10 +85,10 @@ const Portfolio = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
-            className='flex flex-col lg:items-start'
+            className='flex flex-col lg:items-start max-w-[400px]'
           >
             <h1 className='h1'>Advance Internal Marketing</h1>
-            <p className='mb-1 max-w-[600px]'>
+            <p className='mb-1'>
               Since going freelance, I have continued working together with Advance
               to produce paid campaigns, conceptualise case videos , create copy
               for all channels, and assist with internal marketing strategies.
@@ -107,7 +105,7 @@ const Portfolio = () => {
             className=''
           >
 
-            <div className=' max-h-96 lg:max-h-max order-2 overflow-hidden'>
+            <div className=' max-h-96 lg:max-h-max overflow-hidden'>
             <h2 className='h2'>Røde Kors case video</h2>
             <p className='mb-1 max-w-[600px]'>
               Case video created to summarize the ‘Courage to Act’ campaign developed
@@ -184,7 +182,7 @@ const Portfolio = () => {
             <div className='flex-1 max-h-96 lg:max-h-max order-2 overflow-hidden'>
             <img
                 className='object-cover h-full lg:h-[450px] hover:scale-110 transition-all duration-500'
-                src={Portfolioheaderimg}
+                src={barbellyLogo}
                 alt=''
               />
             </div>
@@ -229,7 +227,7 @@ const Portfolio = () => {
             <div className='flex-1 max-h-96 lg:max-h-max order-2 overflow-hidden'>
             <img
                 className='object-cover h-full lg:h-[450px] hover:scale-110 transition-all duration-500'
-                src={Portfolioheaderimg}
+                src={carlotaLogo}
                 alt=''
               />
             </div>

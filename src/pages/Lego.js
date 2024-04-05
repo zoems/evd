@@ -50,8 +50,17 @@ const Lego = () => {
                 send it over as soon as possible.
               </p>
             </div>
+
             <div>
-              <h2 className='h2'>Mechasaurs and LEGO® Marvel</h2>
+              <h2 className='h2'>LEGO® Harry Potter Q1 2023</h2>
+              <p>LEGO® Harry Potter 'common room' videos created in close collaboration
+                with the LEGO® Group and Warner Brothers. Shared on LEGO's private platforms
+                (website, app, and YouTube) including additional activations to drive engagement.
+                <br/>Role: lead copywriter/concept development.
+                </p>
+            </div>
+            <div>
+              <h2 className='h2'>Mechasaurs and LEGO® Marvel Q4 2022</h2>
               <p>
                 Activation created in close collaboration with the LEGO® Group
                 and Marvel Studios. Shared on LEGO's private platforms
@@ -60,50 +69,46 @@ const Lego = () => {
               </p>
               <br />
               <br />
-
               <iframe width="560" height="315" src="https://www.youtube.com/embed/N0Daq1eaF8o?si=Oo9HNp2BykSY5__u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div>
-              <h2 className='h2'>LEGO® Harry Potter</h2>
-              <p>LEGO® Harry Potter 'common room' videos created in close collaboration
-                with the LEGO® Group and Warner Brothers. Shared on LEGO's private platforms
-                (website, app, and YouTube) including additional activations to drive engagement. Role: lead copywriter/concept development.</p>
-            </div>
-            <div>
-              <h2 className='h2'>LEGO® Gabby's Dollhouse</h2>
+              <h2 className='h2'>LEGO® Gabby's Dollhouse Q4 2022</h2>
               <p>Full campaign developed for the launch of new LEGO® 'Gabby's Dollhouse'
                 theme (based on the popular Netflix series).
                 Role: lead copywriter/concept development for 60-second video,
                 as well as 3 shorter supporting videos, SoMe activations and toolbox
                 elements. Created in close collaboration with LEGO® Group and DreamWorks.
+                <br/>Role: lead copywriter/concept development.
               </p>
             </div>
             <div>
-              <h2 className='h2'>LEGO® Caring for Animals</h2>
+              <h2 className='h2'>LEGO® Caring for Animals Q1 2022</h2>
               <p>
               Two video concepts developed to create product awareness,
               build engagement for kids 6+, and bring to life important LEGO® Friends
               themes such as friendship,
-              inclusivity & kindness/support. Role: co-creative/concept development.
+              inclusivity & kindness/support.
+              <br/>Role: co-creative/concept development.
               </p>
             </div>
             <div>
-              <h2 className='h2'>LEGO® Passion Interviews</h2>
+              <h2 className='h2'>LEGO® Passion Interviews Q2 2022 </h2>
               <p>
               Set of videos created for the LEGO® Group with the theme of encouraging
               kids to follow their passions, including the development of supporting
               activations (polls, activities, questions and more) to drive engagement on
               LEGO's private channels.
-              Role: supporting copywriter, interviewer, and motion capture animation.
+              <br/>Role: supporting copywriter, interviewer, and motion capture animation.
               </p>
             </div>
             <div>
-              <h2 className='h2'>LEGO® Safer Internet Day</h2>
+              <h2 className='h2'>LEGO® Safer Internet Day Q1 2022</h2>
               <p>
                 Series of videos developed to promote internet safety awareness in lieu of
                 Safer Internet Day. Includes the development of supporting activations
                 (polls, activities, questions and more) to drive engagement on LEGO's
-                private channels. Role: supporting copywriter and voice actor.
+                private channels.
+                <br/>Role: supporting copywriter and voice actor.
               </p>
             </div>
 

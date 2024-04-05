@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 // import components
 import Socials from './Socials';
-import Logo from '../img/header/logo.svg';
+// import Logo from '../img/header/logo.svg';
 import MobileNav from './MobileNav';
 // import link
 import { Link } from 'react-router-dom';
@@ -19,9 +19,10 @@ const Header = () => {
           onMouseEnter={mouseEnterHandler}
           onMouseLeave={mouseLeaveHandler}
           to={'/'}
-          className='max-w-[200px]'
+          className='max-w-[300px]'
         >
-          <img src={Logo} alt='' />
+          <h1 className='text-xl'> Elize van der Laan</h1>
+          {/* <img src={Logo} alt='' /> */}
         </Link>
         {/* nav - initially hidden - show on desktop mode */}
         <nav
@@ -31,25 +32,25 @@ const Header = () => {
         >
           <Link
             to={'/'}
-            className='text-[#696c6d] hover:text-primary transition'
+            className=' hover:text-primary transition'
           >
             Home
           </Link>
           <Link
             to={'/about'}
-            className='text-[#696c6d] hover:text-primary transition'
+            className=' hover:text-primary transition'
           >
             About
           </Link>
           <Link
             to={'/portfolio'}
-            className='text-[#696c6d] hover:text-primary transition'
+            className=' hover:text-primary transition'
           >
             Porftolio
           </Link>
           <Link
             to={'/contact'}
-            className='text-[#696c6d] hover:text-primary transition'
+            className=' hover:text-primary transition'
           >
             Contact
           </Link>

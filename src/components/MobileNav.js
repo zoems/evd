@@ -23,7 +23,7 @@ const menuVariants = {
 const MobileNav = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className='text-primary xl:hidden'>
+    <nav className='xl:hidden'>
       {/* nav open button */}
       <div
         onClick={() => setOpenMenu(true)}
@@ -41,12 +41,12 @@ const MobileNav = () => {
         {/* icon */}
         <div
           onClick={() => setOpenMenu(false)}
-          className='text-4xl absolute z-30 left-4 top-14 text-primary cursor-pointer'
+          className='text-4xl absolute z-30 left-4 top-14 cursor-pointer'
         >
           <IoMdClose />
         </div>
         {/* menu list */}
-        <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary  font-bold text-3xl'>
+        <ul className='h-full flex flex-col justify-center items-center gap-y-8 font-primary  font-bold text-3xl'>
           <li>
             <Link to='/'>Home</Link>
           </li>

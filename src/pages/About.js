@@ -40,14 +40,26 @@ const About = () => {
             className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>About me</h1>
-            <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
-              <br />
-              <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+            <p className='mb-12 max-w-l'>
+              Hi! I'm Elize, a Dutch/American creative currently based in Berlin.
+              <br /><br />
+              My main skills are copywriting and concept development: from freelance to full-time,
+              for clients that range from lifestyle to legal consultancies to MedTech and even the
+              creators of tiny, colorful bricks (yes, the LEGO® Group!), I've enjoyed getting to hone
+              my skills for numerous, varied projects throughout the 7+ years that I have been working
+              in the industry.
+              <br /><br />
+              Whether it's writing long-form articles, conjuring up creative concepts
+              for TVCs and social media campaigns, or helping businesses develop stand-out brand narratives,
+              I combine creativity with strategy and a keen eye for detail every step of the way, for each
+              project I take on.
+              <br /><br />
+              Besides my love for putting pen to paper, I'm passionate about specialty coffee,
+              the culinary scene, music, vintage, and discovering museums and public libraries in all corners
+              of the world.
+
+              <br /><br />
+              Always happy to make new connections - feel free to reach out!
             </p>
             <Link to={'/portfolio'} className='btn'>
               View my work

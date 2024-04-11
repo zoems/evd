@@ -49,7 +49,7 @@ const Coloplast = () => {
                 vulnerable audiences: often, taking an emotional approach and putting the
                 user in center focus is key.
                 <br/>
-                I’ve picked two campaigns to give an indication of what type of work I completed for this client.
+                I've picked two campaigns to give an indication of what type of work I completed for this client.
               </p>
             </div>
 

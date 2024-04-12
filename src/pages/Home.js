@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import ProfilePic from '../img/home/Profile.jpeg';
+import ProfilePic from '../img/home/Profile.png';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
